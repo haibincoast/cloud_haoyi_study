@@ -1,0 +1,11 @@
+server:
+  port: 11002
+spring:
+  application:
+    name: eureaka-consumer-ribbon
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:10000/eureka
