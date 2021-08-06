@@ -15,6 +15,7 @@
         <module>eureka_consumer_ribbon</module>
         <module>eureka_consumer_feign</module>
         <module>hystrix_dashboard_actuator</module>
+        <module>config-server-git</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
